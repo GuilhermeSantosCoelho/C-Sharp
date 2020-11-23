@@ -1,15 +1,15 @@
 using System;
 
 namespace CsharpOO{
-    public class Carro : Veiculo{
-        public Carro(string placa) : base(placa){
+    public class Moto : Veiculo{
+        public Moto(string placa) : base(placa){
         }
 
-        public Carro(){
+        public Moto(){
         }
 
         public override int QuantidadeDePneus(){
-            return 4;
+            return 2;
         }
 
         public int numeroLugares { get; set; }
