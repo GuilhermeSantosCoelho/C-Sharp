@@ -1,0 +1,13 @@
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\bin\Debug\netcoreapp3.1\CsharpOO.exe
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\bin\Debug\netcoreapp3.1\CsharpOO.deps.json
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\bin\Debug\netcoreapp3.1\CsharpOO.runtimeconfig.json
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\bin\Debug\netcoreapp3.1\CsharpOO.runtimeconfig.dev.json
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\bin\Debug\netcoreapp3.1\CsharpOO.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\bin\Debug\netcoreapp3.1\CsharpOO.pdb
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.csprojAssemblyReference.cache
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.AssemblyInfoInputs.cache
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.AssemblyInfo.cs
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.pdb
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\CsharpOO\obj\Debug\netcoreapp3.1\CsharpOO.genruntimeconfig.cache
