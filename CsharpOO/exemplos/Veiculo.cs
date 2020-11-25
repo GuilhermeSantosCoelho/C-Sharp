@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace CsharpOO{
 
@@ -8,6 +9,8 @@ namespace CsharpOO{
         }
         public Veiculo(){
         }
+        [Key]
+        [Required]
         public string cor { get; set; }
         public string marca { get; set; }
         public string modelo { get; set; }

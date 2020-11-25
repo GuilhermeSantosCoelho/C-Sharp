@@ -20,6 +20,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "http://devops.concert.com.br:8088/NugetServer/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

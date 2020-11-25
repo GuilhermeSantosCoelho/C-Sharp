@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\VeiculosAPI\\VeiculosAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\CsharpOO\\CsharpOO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\CsharpOO\\CsharpOO.csproj",
+        "projectName": "CsharpOO",
+        "projectPath": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\CsharpOO\\CsharpOO.csproj",
+        "packagesPath": "C:\\Users\\guilherme.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\CsharpOO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guilherme.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://devops.concert.com.br:8088/NugetServer/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\VeiculosAPI\\VeiculosAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\VeiculosAPI\\VeiculosAPI.csproj",
+        "projectName": "VeiculosAPI",
+        "projectPath": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\VeiculosAPI\\VeiculosAPI.csproj",
+        "packagesPath": "C:\\Users\\guilherme.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\VeiculosAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guilherme.santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://devops.concert.com.br:8088/NugetServer/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\CsharpOO\\CsharpOO.csproj": {
+                "projectPath": "C:\\Users\\guilherme.santos\\Desktop\\Concert\\C-Sharp\\CsharpOO\\CsharpOO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Commons-Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
