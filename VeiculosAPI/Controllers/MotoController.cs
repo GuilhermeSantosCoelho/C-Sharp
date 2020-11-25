@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using VeiculosAPI.DAO;
 using VeiculosAPI.Entities;
 
 namespace VeiculosAPI.Controllers{
