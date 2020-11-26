@@ -1,16 +1,12 @@
-using System;
 using System.Linq;
+using Commons_Core.DAO;
+using VeiculosAPI.DAO.Interfaces;
+using VeiculosAPI.Entities;
 
 namespace VeiculosAPI.DAO{
-    public class MotoDAO{
-        public static Moto GetMotos(long id){
-            try{
-                VeiculosContext ctx = new VeiculosContext();
-                var query = ctx.Moto.Where(m => m.id == id);
-                return query.First();
-            }catch (Exception e){
-                return null;
-            }
+    public class MotoDAO : BaseDao<VeiculosContext, MotoVO, Moto, DefaultMapper>, IMotoDAO{
+        public override IQueryable<Moto> GetCustomWhere(IQueryable<Moto> listToFilter, MotoVO filter){
+            return listToFilter;
         }
     }
 }

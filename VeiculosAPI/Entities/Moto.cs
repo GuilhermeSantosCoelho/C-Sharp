@@ -1,4 +1,5 @@
 using System;
+using Commons_Core.Entities;
 
 namespace VeiculosAPI.Entities{
     public class Moto : Veiculo{

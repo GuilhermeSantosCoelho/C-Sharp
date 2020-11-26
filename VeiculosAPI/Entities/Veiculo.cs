@@ -1,17 +1,16 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Commons_Core.Entities;
 
 namespace VeiculosAPI.Entities{
-
-    public abstract class Veiculo{
+    [Table("T_VEICULOS")]
+    public abstract class Veiculo : BaseEntity{
         public Veiculo(string placa){
             this.placa = placa;
         }
         public Veiculo(){
         }
-        [Key]
-        [Required]
-        public long id { get; set; }
         public string cor { get; set; }
         public string marca { get; set; }
         public string modelo { get; set; }

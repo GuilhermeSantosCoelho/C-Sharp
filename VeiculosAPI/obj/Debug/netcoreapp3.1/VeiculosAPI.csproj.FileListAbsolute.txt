@@ -68,3 +68,12 @@ C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcorea
 C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcr120.dll
 C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\zlib.dll
 C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\obj\Debug\netcoreapp3.1\VeiculosAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+C:\Users\guilherme.santos\Desktop\Concert\C-Sharp\VeiculosAPI\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll

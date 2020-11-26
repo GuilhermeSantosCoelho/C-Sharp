@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using VeiculosAPI.Business;
+using VeiculosAPI.Business.Interfaces;
+using VeiculosAPI.DAO;
+using VeiculosAPI.DAO.Interfaces;
 
 namespace VeiculosAPI
 {
@@ -26,6 +30,14 @@ namespace VeiculosAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddSwaggerDocument();
+            services.AddSingleton<ICaminhaoDAO, CaminhaoDAO>();
+            services.AddSingleton<ICaminhaoBusiness, CaminhaoBusiness>();
+            services.AddSingleton<ICarroDAO, CarroDAO>();
+            services.AddSingleton<ICarroBusiness, CarroBusiness>();
+            services.AddSingleton<IMotoDAO, MotoDAO>();
+            services.AddSingleton<IMotoBusiness, MotoBusiness>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +58,9 @@ namespace VeiculosAPI
             {
                 endpoints.MapControllers();
             });
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
         }
     }
 }
